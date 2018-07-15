@@ -4,23 +4,6 @@
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-header {
-  height: 90px;
-}
-
-body {
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-footer {
-  font-size: 15px;
-  clear: both;
-  padding: 20px;
-  color: #dddddd;
-  background-color: #666666;
-}
-
 h1, h2 {
   font-family: 'Georgia', Times, Times New Roman, serif;
 }
@@ -29,17 +12,6 @@ h1 {
   margin: 0px;
 }
 
-h2 {
-  text-align: left;
-  color: #4aaaa5;
-}
-
-p {
-  color: #777777;
-  line-height: 1.8;
-  word-spacing: 2px;
-  text-align: left;
-}
 
 a {
   padding: 5px;
@@ -51,31 +23,41 @@ a:hover {
   color: red;
 }
 
-input, textarea {
-  width: 100%;
+p {
+  display: block;
+  color: #777777;
+  line-height: 1.8;
+  word-spacing: 2px;
   text-align: left;
+  float: left;
 }
 
-input[type=submit] {
-  font-size: 14px;
-  width: 90px;
-  height: 30px;
-  text-align: center;
-  color: #ffffff;
+
+.title {
+  text-align: left;;
+}
+.div_grey {
+  padding: 2px;
+  background: #cccccc;
+}
+
+.div_teal {
+  padding: 3px;
   background: #4aaaa5;
 }
 
-.img_portrait {
-  float: left;
-  padding: 30px;
+/*
+.grey {
+  color: #777777;
 }
 
-.img_portfolio {
-  float: left;
-  width: 230px;
-  height: 130px;
-  margin: 0px;
-  z-index: -1;
+.teal {
+  color: #4aaaa5;
+}
+*/
+
+.bg-teal {
+  background-color: #4aaaa5;
 }
 
 .main_border {
@@ -92,55 +74,6 @@ input[type=submit] {
   clear: both;
   background-color: #ffffff;
   border-color: #dddddd;
-}
-
-.div_grey {
-  padding: 2px;
-  background: #cccccc;
-}
-
-.div_teal {
-  padding: 3px;
-  background: #4aaaa5;
-}
-
-.div_pic_container {
-  float: left;
-  width: 230px;
-  height: 130px;
-  margin: 25px;
-}
-
-.div_caption {
-  position: relative;
-  bottom: -60px;
-  text-align: center;
-  height: 35px;
-  background: #4aaaa5;
-  color: #ffffff;
-  display: block;
-}
-
-#name, #nav {
-  float: left;
-  width: 250;
-  height: 80px;
-}
-
-#name {
-  width: 250px;
-  height: 90px;
-  padding-top: 35px;
-  background: #4aaaa5;
-  color: #ffffff;
-}
-
-#nav {
-  padding-top: 35px;
-  width: 710px;
-  background: #ffffff;
-  color: #777777;
-  text-align: right;
 }
 
 #main_background {
